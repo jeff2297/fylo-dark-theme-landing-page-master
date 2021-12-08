@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+   height: 100%;
+}
+
+.header{
+   position: relative;
+   top: 1rem;
+   
+}
+
+#header-image {
+   position: relative;
+   left: 1rem;
+   cursor: pointer;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: -1rem;
+    float: right;
+    cursor: pointer;
+}
+
+.header a {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+}
+
+.header a:hover{
+   text-decoration: underline;
+   opacity: 1
+}
+
+.header ul li{
+   padding: 10px;
+}
+
+.intro {
+  position: relative;
+  top: 5rem;
+ 
+}
+
+#intro-image{
+  height: 50%;
+  width: 50%;
+  position: relative;
+  display: flex;
+  left: 20rem
+}
+
+.intro h3{
+   display: flex;
+   position: relative;
+   left: 20rem;
+   text-align: center;
+   width: 50%;
+   font-size: 25px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.intro p{
+   display: flex;
+   position: relative;
+   left: 24rem;
+   text-align: center;
+   width: 40%;
+}
+
+.button {
+  background: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+  height: 30px;
+  width: 230px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button.intro {
+  top: 0.5rem;
+  left: 32.5rem;
+  cursor: pointer;
+}
+
+.button:hover{
+ background:hsl(176, 68%, 64%);
+}
+
+.section1 {
+  display: flexbox;
+  position: relative;
+  flex-direction: column;
+  column-count: 2;
+  flex: 20px;
+  top: 15rem;
+  left: 10rem;
+  background: url("./images/bg-curvy-desktop.svg");
+  width: 80%
+}
+
+.section1 img{
+   position: relative;
+   left: 6rem;
+}
+
+.section1 div{
+   padding:2rem
+}
+
+.section1 h3{
+  position: relative;
+  left: 3rem
+}
+
+.section1 p {
+  width: 90%;
+  text-align: center;
+  position: relative;
+  left:-2rem;
+ 
+}
+
+.section2{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 16rem;
+  left: 5rem;
+  width: 90%;
+  
+}
+
+.section2 img{
+  display: flex;
+  position: relative;
+  top: 5rem
+}
+
+.section2.sub-division{
+  display: flex;
+  position: relative;
+  width: 43%;
+  left: 42rem;
+  top: -20rem
+}
+
+.section2 h3{
+  font-size: 30px;
+}
+
+.section2 a{
+  color: aqua;
+  
+}
+
+.section2 a img{
+  top: -1rem;
+  left: 9.5rem
+}
+
+.testimonials {
+    display: flex;
+    position: relative;
+    top: 10rem;   
+}
+
+.testimonials div{
+    display: flexbox;
+    position: relative;
+    margin: 20px;
+    background:hsl(219, 30%, 18%);
+    height: 180px;
+}
+
+.testimonials div p {
+   width: 93%;
+   font-family: 'Open Sans', sans-serif;
+   opacity: 0.7;
+   position: relative;
+   display: flex;
+   left: 10px
+}
+
+.testimonials img {
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.testimonials h4 {
+   position: relative;
+   top: -4rem;
+   left: 3.5rem
+}
+
+.testimonials span {
+    position: relative;
+    top: -5.5rem;
+    left: 3.5rem;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+#team-quote-img{
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: -0.5rem;
+}
+
+.call-to-action {
+    display:block;
+    position: relative;
+    top: 20rem;
+    left: 12rem;
+    width: 65%;
+    height: 13rem;
+    background-color:  hsl(219, 30%, 18%);
+    z-index: 1;
+}
+
+.call-to-action input{
+   width: 48%;
+   border-radius: 20px;
+   border: 1px solid black;
+   height: 30px;
+   position: relative;
+   left: 8rem;
+   top: 38px;
+}
+
+.call-to-action input::placeholder{
+  opacity: 0.5;
+}
+
+.call-to-action h2{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.call-to-action p{
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    left: 10rem;
+    top: 20px;
+    width: 70%;
+    opacity: 0.7;
+}
+
+.call-to-action-btn {
+    position: relative;
+    left: 10rem;
+    top: 40px;
+    width: 22%
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 14rem;
+    height: 30rem;
+    width: 100%;
+    background-color: hsl(216, 53%, 9%);
+    
+}
+
+#footer-logo{
+   display: flex;
+   position: relative;
+   top: 180px;
+   left: 50px
+}
+
+.footer-main {
+    display: flexbox;
+    position: relative;
+    flex-direction: column;
+    top: 35px;
+    left: 46rem;
+    column-count: 2;
+    width: 20%;
+    cursor: pointer;
+   
+}
+
+.footer-main div:hover{
+   opacity: 1;
+}
+
+.footer-main div{
+   margin-bottom: 7px;
+   opacity: 0.7;
+}
+
+.footer-description {
+   display: flex;
+   position: relative;
+   top:13rem;
+   left: 3.5rem;
+   width: 28%;
+   justify-content: left;
+}
+
+#footer-description-icon{
+   display: flex;
+   position: relative;
+   left: -8px;
+}
+
+.footer-contact {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   top: 130px;
+   left: 28rem;
+
+}
+
+.footer-contact img{
+  margin-right: 20px;
+}
+
+.social-media {
+    display: flex;
+    position: relative;
+    left: 65rem;
+    top: -5rem;
+    cursor: pointer;
+}
+
+.social-media i{
+    border-radius: 120px;
+    padding: 3px;
+    margin: 10px
+}
+
+.social-media i:hover{
+   color:cyan
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    display: flex;
+    position: relative; 
+    top: 11rem
+}
+
+.attribution a { 
+    color: hsl(228, 29%, 47%); 
+}
